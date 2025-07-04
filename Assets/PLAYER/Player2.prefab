@@ -60,6 +60,7 @@ GameObject:
   - component: {fileID: -6669350400831209714}
   - component: {fileID: 3397354032910198979}
   - component: {fileID: 4282110856101656072}
+  - component: {fileID: 7847544915578240142}
   m_Layer: 6
   m_Name: Player2
   m_TagString: Untagged
@@ -206,6 +207,22 @@ BoxCollider:
   serializedVersion: 3
   m_Size: {x: 2.8780155, y: 2.4941123, z: 1.2276382}
   m_Center: {x: -0.004665613, y: 1.100597, z: 0.11381912}
+--- !u!114 &7847544915578240142
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3223658293067289610}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b7a68c61501dca645b12fc6bb3e3116f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  chatInputField: {fileID: 0}
+  chatLogText: {fileID: 0}
+  sendButton: {fileID: 0}
+  scrollRect: {fileID: 0}
 --- !u!1 &6001006059673604086
 GameObject:
   m_ObjectHideFlags: 0
